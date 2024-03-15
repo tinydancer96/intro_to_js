@@ -7,6 +7,6 @@ function count() {
     alert(`Count is now ${counter}`)
   }
 }
-document,addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('button').onclick = count;
 });
